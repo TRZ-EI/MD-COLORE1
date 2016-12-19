@@ -1,0 +1,21 @@
+-------- PROJECT GENERATOR --------
+PROJECT NAME :	MD_COLORE_1
+PROJECT DIRECTORY :	C:\WorkSpace\MD_COLORE_1\MD_COLORE_1
+CPU SERIES :	M16C/60
+CPU GROUP :	62P
+TOOLCHAIN NAME :	Renesas M16C Standard Toolchain
+TOOLCHAIN VERSION :	5.42.00
+GENERATION FILES :
+    C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\MD_COLORE_1.c
+        main program file.
+    C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\nc_define.inc
+        interrupt program.
+START UP FILES :
+    C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\sfr62p.inc
+    C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\sect30.inc
+    C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\ncrt0.a30
+    C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\sfr62p.h
+
+SELECT TARGET :
+    M16C E8 SYSTEM
+DATE & TIME : 19/12/2014 16.36.01

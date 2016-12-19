@@ -1,0 +1,1203 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\bin\ln30.exe @C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\Debug\MD_COLORE_1.m16cl
+
+# ID CODE DATA
+.ID  "#FFFFFFFFFFFFFF"
+
+# ROM CODE PROTECT DATA
+.PROTECT  FFH
+
+# LINK FILE INFORMATION
+ncrt0 (C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\Debug\ncrt0.r30)
+	Dec 19 16:40:58 2014
+
+MD_COLORE_1 (C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\Debug\MD_COLORE_1.r30)
+	Dec 19 16:40:58 2014
+
+_f8ge (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:29 2006
+
+_f8mul (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:30 2006
+
+_f8toi4 (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:31 2006
+
+_ftol (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:31 2006
+
+_i4div (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:31 2006
+
+_i4divu (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:32 2006
+
+_i4mod (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:32 2006
+
+_i4mulu (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:32 2006
+
+_i4tof8 (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:32 2006
+
+_i4utof8 (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:33 2006
+
+_ltof (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:34 2006
+
+mdata (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:51 2006
+
+strlen (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:52:08 2006
+
+strtol (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:52:11 2006
+
+_f8ltor (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:29 2006
+
+_f8rtol (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:30 2006
+
+cdata (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:38 2006
+
+errno (c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib)
+	Oct 18 10:51:40 2006
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          ABS DATA    000400 000000       ncrt0
+bss_SE                           REL DATA    000400 000000 2     ncrt0
+data_SO                          REL DATA    000400 000000       ncrt0
+bss_SO                           REL DATA    000400 000000       ncrt0
+data_NE                          REL DATA    000400 000000 2     ncrt0
+                                 REL DATA    000400 000276 2     MD_COLORE_1
+                                 REL DATA    000676 000010 2     mdata
+                                 REL DATA    000686 000002 2     errno
+bss_NE                           REL DATA    000688 000000 2     ncrt0
+                                 REL DATA    000688 00172A 2     MD_COLORE_1
+                                 REL DATA    001DB2 000008 2     mdata
+data_NO                          REL DATA    001DBA 000000       ncrt0
+                                 REL DATA    001DBA 0002E7       MD_COLORE_1
+bss_NO                           REL DATA    0020A1 000000       ncrt0
+                                 REL DATA    0020A1 00035C       MD_COLORE_1
+istack                           REL DATA    0023FE 000300 2     ncrt0
+stack                            REL DATA    0026FE 000300 2     ncrt0
+heap                             REL DATA    0029FE 000300       ncrt0
+rom_FE                           ABS ROMDATA 0A0000 000000       ncrt0
+                                 REL ROMDATA 0A0000 0013B2 2     MD_COLORE_1
+rom_FO                           REL ROMDATA 0A13B2 000000       ncrt0
+                                 REL ROMDATA 0A13B2 001241       MD_COLORE_1
+                                 REL ROMDATA 0A25F3 000101       cdata
+data_SEI                         REL ROMDATA 0A26F4 000000 2     ncrt0
+data_SOI                         REL ROMDATA 0A26F4 000000       ncrt0
+data_NEI                         REL ROMDATA 0A26F4 000000 2     ncrt0
+                                 REL ROMDATA 0A26F4 000276       MD_COLORE_1
+                                 REL ROMDATA 0A296A 000010       mdata
+                                 REL ROMDATA 0A297A 000002       errno
+data_NOI                         REL ROMDATA 0A297C 000000       ncrt0
+                                 REL ROMDATA 0A297C 0002E7       MD_COLORE_1
+program                          REL CODE    0A2C64 000000 2     ncrt0
+                                 REL CODE    0A2C64 0099C9 2     MD_COLORE_1
+                                 REL CODE    0AC62E 0000A7 2     _f8ge
+                                 REL CODE    0AC6D6 0002C7 2     _f8mul
+                                 REL CODE    0AC99E 000025 2     _f8toi4
+                                 REL CODE    0AC9C4 000111 2     _ftol
+                                 REL CODE    0ACAD6 000083 2     _i4div
+                                 REL CODE    0ACB5A 00004D 2     _i4divu
+                                 REL CODE    0ACBA8 000073 2     _i4mod
+                                 REL CODE    0ACC1C 00001C 2     _i4mulu
+                                 REL CODE    0ACC38 000022 2     _i4tof8
+                                 REL CODE    0ACC5A 000022 2     _i4utof8
+                                 REL CODE    0ACC7C 0000D4 2     _ltof
+                                 REL CODE    0ACD50 00002B 2     strlen
+                                 REL CODE    0ACD7C 0002CA 2     strtol
+                                 REL CODE    0AD046 000054 2     _f8ltor
+                                 REL CODE    0AD09A 000041 2     _f8rtol
+interrupt                        REL CODE    0AD0DC 000000 2     ncrt0
+                                 REL CODE    0AD0DC 0000A7       ncrt0
+program_S                        REL CODE    0AD184 000000 2     ncrt0
+vector                           ABS ROMDATA 0FFD00 000100       ncrt0
+fvector                          ABS ROMDATA 0FFFDC 000024       ncrt0
+# Total -------------------------------------------------------------------
+                                     DATA           0028FD(0010493) Byte(s)
+                                     ROMDATA        002D87(0011655) Byte(s)
+                                     CODE           00A51E(0042270) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$CRC16             0a7fee  $LCD_InviaDato     0a6e98  $LCD_InviaDato_i   0a6ed2
+$LCD_InviaIst      0a6e64  $UART0Txdato       0ab3c2  $_f8ltor           0ad046
+$_f8rtol           0ad09a  $_ftol             0ac9c4  $_ltof             0acc7c
+$acqNumero         0ac3fe  $aqanno            0ab77e  $aqdata            0ab746
+$aqmese            0ab7b6  $aqmin             0ab6d6  $aqore             0ab70e
+$aqsec             0ab698  $aqso              0aa2b0  $aqtim             0a798e
+$bit               0a7270  $bit_i             0a7282  $clriga            0a7790
+$cod_hex           0a9bb6  $codifica_caratt   0ac21e  $conv_bcd_bin      0ab94a
+$conv_bin_bcd      0ab91e  $copia_riga_stam   0ac01c  $exit              0ad180
+$individuacaratt   0ac3e4  $legge_utente_ee   0aa00e  $leggi_ee          0a2e56
+$leggi_ee_256      0a2f96  $leggi_ee_bloc     0a30fc  $nome_utente       0a9d7c
+$res               0a724e  $res_i             0a725c  $ric_car_inf       0a9d52
+$ric_car_sup       0a9d28  $scrivi_dp_stamp   0aa73c  $scrivi_ee         0a2d4c
+$scrivi_ee_256     0a2f4a  $scrivi_ee_bloc    0a2fcc  $set               0a7230
+$set_evi           0aadce  $set_i             0a723c  $stampa            0ac048
+$trig_buzz         0a9a74  $tx_ser_int        0ab3f4  $tx_serb_int_ex    0a9b3e
+$vett_ee_16_8      0a808a  $vett_ee_8_16      0a8048  $vis_2             0a9a90
+$vis_asci          0aa960  $vis_orologio      0ab97a  $vis_orologio_st   0abac8
+$vis_press         0aa8b4  $vis_timer         0a9800  $visual_4          0ab336
+$visual_5c         0a769e  $visual_6c         0a75f6  $visual_6c_1       0a9bde
+$visual_6c_2       0a9916  $visual_buf_nome   0a9f98  $visualvettore     0ac38e
+$wr_car_h          0a6fb0  $wr_car_l          0a7018  $wr_dato_rtc       0ab47c
+$wr_disp_menu      0a7e84  $wr_led            0aa288  $wr_out            0aa208
+_ADCint            0a9af2  _BCDH              0023f6  _CANALE0           0023cb
+_CANALE1           0023cc  _COD_ERR           000bee  _CTIM1             0023b2
+_CTIM2             0023b3  _ConfigureOperat   0aa1a8  _D1LAV             000bfa
+_D2LAV             000bfe  _DI                0a2c64  _EE                0007d4
+_EI                0a2c68  _FLGEE             0020a0  _FTAS              0023c6
+_Iniz_interf_LCD   0a705e  _K1                000d7a  _K2                000d7e
+_KK                000bf6  _KLONG             000c02  _LCD_FlagDiStato   0a6f32
+_LCD_InizGraf      0a6e0c  _LED_PWM           000d9a  _LED_PWM_P         000d9c
+_LungDatiInitgra   001d78  _MED1              000d4c  _MED2              000d50
+_MIS1              000ca4  _MIS2              000cf8  _MMINP             000660
+_MMLED             00065e  _MMOUT             00065c  _OFF1              000d96
+_OFF1_MIS          000d8e  _OFF2              000d98  _P1_VIS            000d76
+_PRES1_MB          000d60  _PRES1_MED         000d54  _PRES2_MED         000d58
+_PRESX             000d68  _PRES_C1           000d5c  _PRES_C1LAV        000d82
+_PRES_C2LAV        000d86  _PRES_LAV          000d8a  _RUN_PROG          000da4
+_S                 000c3c  _STATO_PROVA       0023ca  _TimerA0int        0a70da
+_TimerA1int        0a70ca  _TimerA2int        0a70c4  _UART0Rxdato       0ab3d8
+_VTAS              0023c5  _VTAS_F            0023c9  _VTIM1             0007b6
+_VTIM2             0007ba  __ctype            0a25f3  __f8ge             0ac62e
+__f8mul            0ac6d6  __f8toi4           0ac99e  __i4Utof8          0acc5a
+__i4div            0acad6  __i4divU           0acb5a  __i4mod            0acba8
+__i4mulU           0acc1c  __i4tof8           0acc38  __memt             00067e
+__mnext            001db2  __msize            001db6  __pool             000676
+_abil_rev          0023ce  _agg_display       0a6f62  _ascih             0a0000
+_ascil             0a0fa0  _azzera_memoria    0ac584  _barra             0aaab6
+_bcd_bin           0a7474  _blocco_tx         0023cd  _buf_asci          0023b4
+_buf_nome          000662  _buf_tast          0023c8  _buzzer            0a9a60
+_c_bloc1           001d7a  _c_bloc2           001d7c  _calibrazione      0a9318
+_canale            000d6c  _cldis             0a7562  _clearEE           0a9afc
+_clear_buf_asci    0a978a  _cnt_byte_disp     001d7e  _cnt_int           00209f
+_cntee             000658  _cntinitgraf       001d76  _codifica          0007c4
+_codifica_tasto    0a716a  _cont_caratteri    000daa  _cont_inter        000ca0
+_cont_inter_A1     000ca2  _contapezzi        0abe46  _copia             000da0
+_crc_calc          0008d8  _crc_letto         0008da  _dati_rtc          000dc0
+_dato_ser          0023ab  _delay             0a9b1a  _disp_gr           000dd4
+_dp5               0ac0be  _dtinitgraf        0023f4  _durata_buzzer     000be8
+_errno             000686  _esecuzione_prov   0a375c  _exit              0ad180
+_filt              0a1398  _fine_per_buono    0a40d6  _fine_per_errore   0a40f6
+_flag_dp5          000be2  _flagfine          0008d6  _fus               00079c
+_fusa              00079e  _fusb              0007a0  _fusc              0007a2
+_i                 000da2  _ii                000d92  _il                000bf2
+_ind_wr            001d80  _initADC           0a9ade  _initTimerA0       0a7082
+_initTimerA1       0a7076  _initTimerA2       0a706a  _initTimerA3_PWM   0aa184
+_initUART0         0ab3aa  _init_bus_lento    0aa1f4  _iniz_eeprom_oro   0aa2a6
+_iniz_tastiera     0a729a  _j                 000c0e  _k                 001d82
+_k1                000c06  _k1_f              000d72  _k2                000c0a
+_ki                001dac  _kl                000d64  _lcdinitgraf       0a139a
+_leggi_anno        0ab568  _leggi_data        0ab552  _leggi_mese        0ab57e
+_leggi_min         0ab526  _leggi_ore         0ab53c  _leggi_sec         0ab510
+_lett_conv         0a7b4a  _long_hex          0ac5a0  _luce_led          000be4
+_lung              000c22  _main              0a3204  _mem_utente_eepr   0a9fe4
+_mitoa             0a72ba  _msg               000dac  _mta3              000d9e
+_num_com           0023c3  _num_com1          0023c4  _off1              000d6e
+_p10_APP           0023c7  _p_destinazione    0007a4  _p_disp            001d74
+_p_scarto1         0007ac  _p_scarto2         0007b0  _p_scarto3         0007b4
+_p_soglie_timer    0a80d2  _p_sorgente        0007a6  _p_stamp           0007a8
+_p_tappi           0aae18  _p_totali1         0007aa  _p_totali2         0007ae
+_p_totali3         0007b2  _passw_letta       000bf0  _pbatt             000c34
+_pressure          000c12  _prog_orologio     0ab7ee  _prova_due         0a5c22
+_prova_fusione     0abc20  _prova_tre         0a64b4  _prova_uno         0a4116
+_punt_array        0007c2  _ram_rtc           0023d1  _ram_s0            0020c7
+_ram_s1            0020ec  _ram_s10           002239  _ram_s11           00225e
+_ram_s12           002283  _ram_s13           0022a8  _ram_s14           0022cd
+_ram_s15           0022f2  _ram_s16           002317  _ram_s17           00233c
+_ram_s18           002361  _ram_s19           002386  _ram_s2            002111
+_ram_s3            002136  _ram_s4            00215b  _ram_s5            002180
+_ram_s6            0021a5  _ram_s7            0021ca  _ram_s8            0021ef
+_ram_s9            002214  _rd_dato_rtc       0ab4c6  _rd_inp            0aa252
+_res_evi           0aae0a  _res_tappi         0aad50  _res_tappi1        0aad66
+_res_tappi2        0aad9a  _rev               0023f2  _ric_batt          0ab45c
+_ritardo           0a7e60  _rtc_anno          0023b1  _rtc_data          0023af
+_rtc_mese          0023b0  _rtc_min           0023ad  _rtc_ore           0023ae
+_rtc_sec           0023ac  _scansione_led     0ac124  _schift_up_riga    0a7766
+_schiftaSxvett     0ac3be  _scrivi_anno       0ab644  _scrivi_data       0ab61a
+_scrivi_dp         0aa438  _scrivi_dp_h       0aa62e  _scrivi_dp_l       0a96a8
+_scrivi_dp_punto   0aa51c  _scrivi_mese       0ab66e  _scrivi_min        0ab5c6
+_scrivi_ore        0ab5f0  _scrivi_riga_h     0a757e  _scrivi_riga_l     0a75ba
+_scrivi_sec        0ab594  _sec_rip           00065a  _setADCint         0a9aec
+_setTimerA0int     0a70b2  _setTimerA1int     0a70b8  _setTimerA2int     0a70be
+_set_tappi1        0aac20  _set_tappi2        0aac80  _set_tappi3        0aace8
+_stampa_espanso    0abf82  _stampa_normale    0abf96  _stampa_riga       0abfb4
+_startTimerA0      0a708e  _startTimerA1      0a709a  _startTimerA2      0a70a6
+_startTimerA3      0aa19c  _strlen            0acd50  _strtol            0acd7c
+_tab_hex           000400  _tab_tas           0a1388  _taglio_stampant   0abfec
+_tastiera          0a71a4  _tasto             0023f5  _temperature       000c1a
+_tempo_prova       000bec  _tempo_stab        000bea  _test              000da6
+_test_batt         0aa03e  _test_emergenza_   0020a1  _tim1_vis          0007be
+_tim2_vis          0007c0  _tim_puls          000c10  _timer1            0a97a8
+_timer2            0a97d4  _timers            000654  _timertst          0008d4
+_timsec            000656  _tipo_ciclo        00209e  _tx_serb_cr_lf     0a9ba8
+_v1                0023cf  _v2                0023d0  _vbatt             000c24
+_vbatt_eff         000c2c  _vett              001d84  _vett16_cal        0009de
+_vett16_dati       000ae0  _vett_16           0008dc  _vett_ee           000698
+_vett_hex32        000688  _vett_tasto        000622  _visual_prove      0a7f88
+_wd_h              0aa41a  _wr_car            0023f3  _wrdis             0a2cde
+_wrmem             0a2c6c  dummy_int          0ad182  start              0ad0dc
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ ncrt0 ( C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\Debug\ncrt0.r30 )
+@ MD_COLORE_1 ( C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\Debug\MD_COLORE_1.r30 )
+@ _f8ge ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _f8mul ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _f8toi4 ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _ftol ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4div ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4divu ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4mod ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4mulu ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4tof8 ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4utof8 ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _ltof ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ mdata ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ strlen ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ strtol ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _f8ltor ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _f8rtol ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ cdata ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ errno ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ ncrt0 ( C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\Debug\ncrt0.r30 )
+@ MD_COLORE_1 ( C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\Debug\MD_COLORE_1.r30 )
+@ _f8ge ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _f8mul ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _f8toi4 ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _ftol ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4div ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4divu ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4mod ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4mulu ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4tof8 ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4utof8 ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _ltof ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ mdata ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ strlen ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ strtol ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _f8ltor ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _f8rtol ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ cdata ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ errno ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ ncrt0 ( C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\Debug\ncrt0.r30 )
+@ MD_COLORE_1 ( C:\WorkSpace\MD_COLORE_1\MD_COLORE_1\Debug\MD_COLORE_1.r30 )
+@ _f8ge ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _f8mul ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _f8toi4 ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _ftol ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4div ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4divu ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4mod ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4mulu ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4tof8 ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _i4utof8 ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _ltof ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ mdata ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ strlen ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ strtol ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _f8ltor ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ _f8rtol ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ cdata ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+@ errno ( c:\programmi\renesas\hew\tools\renesas\nc30wa\v542r00\lib30\nc30lib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   1
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  00000687       288   2
+bss_NE
+                                  00000688  00001db9      1732   2
+data_NO
+                                  00001dba  000020a0       2e7   1
+bss_NO
+                                  000020a1  000023fc       35c   1
+istack
+                                  000023fe  000026fd       300   2
+stack
+                                  000026fe  000029fd       300   2
+heap
+                                  000029fe  00002cfd       300   1
+rom_FE
+                                  000a0000  000a13b1      13b2   1
+rom_FO
+                                  000a13b2  000a26f3      1342   1
+data_SEI
+                                  000a26f4  000a26f4         0   2
+data_SOI
+                                  000a26f4  000a26f4         0   1
+data_NEI
+                                  000a26f4  000a297b       288   2
+data_NOI
+                                  000a297c  000a2c62       2e7   1
+program
+                                  000a2c64  000ad0da      a477   2
+interrupt
+                                  000ad0dc  000ad182        a7   2
+program_S
+                                  000ad184  000ad184         0   2
+vector
+                                  000ffd00  000ffdff       100   1
+fvector
+                                  000fffdc  000fffff        24   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_SE
+FILE=ncrt0
+                                  00000400  00000400         0
+  __SB__
+                                  00000400         0   none ,g         0
+
+SECTION=data_NE
+FILE=C:/WorkSpace/MD_COLORE_1/MD_COLORE_1/MD_COLORE_1
+                                  00000400  00000675       276
+  _tab_hex
+                                  00000400        22   data ,g         0
+  _vett_tasto
+                                  00000622        32   data ,g         0
+  _timers
+                                  00000654         2   data ,g         0
+  _timsec
+                                  00000656         2   data ,g         0
+  _cntee
+                                  00000658         2   data ,g         0
+  _sec_rip
+                                  0000065a         2   data ,g         0
+  _MMOUT
+                                  0000065c         2   data ,g         0
+  _MMLED
+                                  0000065e         2   data ,g         0
+  _MMINP
+                                  00000660         2   data ,g         0
+  _buf_nome
+                                  00000662        14   data ,g         0
+
+FILE=mdata
+                                  00000676  00000685        10
+  __memt
+                                  0000067e         0   none ,g         0
+  __pool
+                                  00000676         0   none ,g         0
+
+FILE=errno
+                                  00000686  00000687         2
+  _errno
+                                  00000686         0   none ,g         0
+
+SECTION=bss_NE
+FILE=C:/WorkSpace/MD_COLORE_1/MD_COLORE_1/MD_COLORE_1
+                                  00000688  00001db1      172a
+  _vett_hex32
+                                  00000688        10   data ,g         0
+  _fus
+                                  0000079c         2   data ,g         0
+  _fusa
+                                  0000079e         2   data ,g         0
+  _fusb
+                                  000007a0         2   data ,g         0
+  _fusc
+                                  000007a2         2   data ,g         0
+  _p_destinazione
+                                  000007a4         2   data ,g         0
+  _p_sorgente
+                                  000007a6         2   data ,g         0
+  _p_stamp
+                                  000007a8         2   data ,g         0
+  _p_totali1
+                                  000007aa         2   data ,g         0
+  _p_scarto1
+                                  000007ac         2   data ,g         0
+  _p_totali2
+                                  000007ae         2   data ,g         0
+  _p_scarto2
+                                  000007b0         2   data ,g         0
+  _p_totali3
+                                  000007b2         2   data ,g         0
+  _p_scarto3
+                                  000007b4         2   data ,g         0
+  _VTIM1
+                                  000007b6         4   data ,g         0
+  _VTIM2
+                                  000007ba         4   data ,g         0
+  _tim1_vis
+                                  000007be         2   data ,g         0
+  _tim2_vis
+                                  000007c0         2   data ,g         0
+  _punt_array
+                                  000007c2         2   data ,g         0
+  _codifica
+                                  000007c4        10   data ,g         0
+  _EE
+                                  000007d4       100   data ,g         0
+  _timertst
+                                  000008d4         2   data ,g         0
+  _flagfine
+                                  000008d6         2   data ,g         0
+  _crc_calc
+                                  000008d8         2   data ,g         0
+  _crc_letto
+                                  000008da         2   data ,g         0
+  _vett_ee
+                                  00000698       104   data ,g         0
+  _vett_16
+                                  000008dc       102   data ,g         0
+  _vett16_cal
+                                  000009de       102   data ,g         0
+  _vett16_dati
+                                  00000ae0       102   data ,g         0
+  _flag_dp5
+                                  00000be2         2   data ,g         0
+  _luce_led
+                                  00000be4         4   data ,g         0
+  _durata_buzzer
+                                  00000be8         2   data ,g         0
+  _tempo_stab
+                                  00000bea         2   data ,g         0
+  _tempo_prova
+                                  00000bec         2   data ,g         0
+  _COD_ERR
+                                  00000bee         2   data ,g         0
+  _passw_letta
+                                  00000bf0         2   data ,g         0
+  _il
+                                  00000bf2         4   data ,g         0
+  _KK
+                                  00000bf6         4   data ,g         0
+  _D1LAV
+                                  00000bfa         4   data ,g         0
+  _D2LAV
+                                  00000bfe         4   data ,g         0
+  _KLONG
+                                  00000c02         4   data ,g         0
+  _k1
+                                  00000c06         4   data ,g         0
+  _k2
+                                  00000c0a         4   data ,g         0
+  _j
+                                  00000c0e         2   data ,g         0
+  _tim_puls
+                                  00000c10         2   data ,g         0
+  _pressure
+                                  00000c12         8   data ,g         0
+  _temperature
+                                  00000c1a         8   data ,g         0
+  _lung
+                                  00000c22         2   data ,g         0
+  _vbatt
+                                  00000c24         8   data ,g         0
+  _vbatt_eff
+                                  00000c2c         8   data ,g         0
+  _pbatt
+                                  00000c34         8   data ,g         0
+  _S
+                                  00000c3c        64   data ,g         0
+  _cont_inter
+                                  00000ca0         2   data ,g         0
+  _cont_inter_A1
+                                  00000ca2         2   data ,g         0
+  _MIS1
+                                  00000ca4        54   data ,g         0
+  _MIS2
+                                  00000cf8        54   data ,g         0
+  _MED1
+                                  00000d4c         4   data ,g         0
+  _MED2
+                                  00000d50         4   data ,g         0
+  _PRES1_MED
+                                  00000d54         4   data ,g         0
+  _PRES2_MED
+                                  00000d58         4   data ,g         0
+  _PRES_C1
+                                  00000d5c         4   data ,g         0
+  _PRES1_MB
+                                  00000d60         4   data ,g         0
+  _kl
+                                  00000d64         4   data ,g         0
+  _PRESX
+                                  00000d68         4   data ,g         0
+  _canale
+                                  00000d6c         2   data ,g         0
+  _off1
+                                  00000d6e         4   data ,g         0
+  _k1_f
+                                  00000d72         4   data ,g         0
+  _P1_VIS
+                                  00000d76         4   data ,g         0
+  _K1
+                                  00000d7a         4   data ,g         0
+  _K2
+                                  00000d7e         4   data ,g         0
+  _PRES_C1LAV
+                                  00000d82         4   data ,g         0
+  _PRES_C2LAV
+                                  00000d86         4   data ,g         0
+  _PRES_LAV
+                                  00000d8a         4   data ,g         0
+  _OFF1_MIS
+                                  00000d8e         4   data ,g         0
+  _ii
+                                  00000d92         4   data ,g         0
+  _OFF1
+                                  00000d96         2   data ,g         0
+  _OFF2
+                                  00000d98         2   data ,g         0
+  _LED_PWM
+                                  00000d9a         2   data ,g         0
+  _LED_PWM_P
+                                  00000d9c         2   data ,g         0
+  _mta3
+                                  00000d9e         2   data ,g         0
+  _copia
+                                  00000da0         2   data ,g         0
+  _i
+                                  00000da2         2   data ,g         0
+  _RUN_PROG
+                                  00000da4         2   data ,g         0
+  _crc_calc
+                                  000008d8         2   data ,g         0
+  _test
+                                  00000da6         4   data ,g         0
+  _cont_caratteri
+                                  00000daa         2   data ,g         0
+  _msg
+                                  00000dac        14   data ,g         0
+  _dati_rtc
+                                  00000dc0        14   data ,g         0
+  _disp_gr
+                                  00000dd4       fa0   data ,g         0
+  _p_disp
+                                  00001d74         2   data ,g         0
+  _cntinitgraf
+                                  00001d76         2   data ,g         0
+  _LungDatiInitgraf
+                                  00001d78         2   data ,g         0
+  _c_bloc1
+                                  00001d7a         2   data ,g         0
+  _c_bloc2
+                                  00001d7c         2   data ,g         0
+  _cnt_byte_disp
+                                  00001d7e         2   data ,g         0
+  _ind_wr
+                                  00001d80         2   data ,g         0
+  _k
+                                  00001d82         2   data ,g         0
+  _vett
+                                  00001d84        28   data ,g         0
+  _ki
+                                  00001dac         2   data ,g         0
+
+FILE=mdata
+                                  00001db2  00001db9         8
+  __mnext
+                                  00001db2         0   none ,g         0
+  __msize
+                                  00001db6         0   none ,g         0
+
+SECTION=data_NO
+FILE=C:/WorkSpace/MD_COLORE_1/MD_COLORE_1/MD_COLORE_1
+                                  00001dba  000020a0       2e7
+  _tipo_ciclo
+                                  0000209e         1   data ,g         0
+  _cnt_int
+                                  0000209f         1   data ,g         0
+  _FLGEE
+                                  000020a0         1   data ,g         0
+
+SECTION=bss_NO
+FILE=ncrt0
+                                  000020a1  000020a1         0
+  _test_emergenza_fatto
+                                  000020a1         1   data ,g         0
+
+FILE=C:/WorkSpace/MD_COLORE_1/MD_COLORE_1/MD_COLORE_1
+                                  000020a1  000023fc       35c
+  _ram_s0
+                                  000020c7        25   data ,g         0
+  _ram_s1
+                                  000020ec        25   data ,g         0
+  _ram_s2
+                                  00002111        25   data ,g         0
+  _ram_s3
+                                  00002136        25   data ,g         0
+  _ram_s4
+                                  0000215b        25   data ,g         0
+  _ram_s5
+                                  00002180        25   data ,g         0
+  _ram_s6
+                                  000021a5        25   data ,g         0
+  _ram_s7
+                                  000021ca        25   data ,g         0
+  _ram_s8
+                                  000021ef        25   data ,g         0
+  _ram_s9
+                                  00002214        25   data ,g         0
+  _ram_s10
+                                  00002239        25   data ,g         0
+  _ram_s11
+                                  0000225e        25   data ,g         0
+  _ram_s12
+                                  00002283        25   data ,g         0
+  _ram_s13
+                                  000022a8        25   data ,g         0
+  _ram_s14
+                                  000022cd        25   data ,g         0
+  _ram_s15
+                                  000022f2        25   data ,g         0
+  _ram_s16
+                                  00002317        25   data ,g         0
+  _ram_s17
+                                  0000233c        25   data ,g         0
+  _ram_s18
+                                  00002361        25   data ,g         0
+  _ram_s19
+                                  00002386        25   data ,g         0
+  _dato_ser
+                                  000023ab         1   data ,g         0
+  _rtc_sec
+                                  000023ac         1   data ,g         0
+  _rtc_min
+                                  000023ad         1   data ,g         0
+  _rtc_ore
+                                  000023ae         1   data ,g         0
+  _rtc_data
+                                  000023af         1   data ,g         0
+  _rtc_mese
+                                  000023b0         1   data ,g         0
+  _rtc_anno
+                                  000023b1         1   data ,g         0
+  _CTIM1
+                                  000023b2         1   data ,g         0
+  _CTIM2
+                                  000023b3         1   data ,g         0
+  _buf_asci
+                                  000023b4         f   data ,g         0
+  _num_com
+                                  000023c3         1   data ,g         0
+  _num_com1
+                                  000023c4         1   data ,g         0
+  _VTAS
+                                  000023c5         1   data ,g         0
+  _FTAS
+                                  000023c6         1   data ,g         0
+  _p10_APP
+                                  000023c7         1   data ,g         0
+  _buf_tast
+                                  000023c8         1   data ,g         0
+  _VTAS_F
+                                  000023c9         1   data ,g         0
+  _STATO_PROVA
+                                  000023ca         1   data ,g         0
+  _CANALE0
+                                  000023cb         1   data ,g         0
+  _CANALE1
+                                  000023cc         1   data ,g         0
+  _blocco_tx
+                                  000023cd         1   data ,g         0
+  _STATO_PROVA
+                                  000023ca         1   data ,g         0
+  _abil_rev
+                                  000023ce         1   data ,g         0
+  _v1
+                                  000023cf         1   data ,g         0
+  _v2
+                                  000023d0         1   data ,g         0
+  _ram_rtc
+                                  000023d1        21   data ,g         0
+  _rev
+                                  000023f2         1   data ,g         0
+  _wr_car
+                                  000023f3         1   data ,g         0
+  _dtinitgraf
+                                  000023f4         1   data ,g         0
+  _tasto
+                                  000023f5         1   data ,g         0
+  _BCDH
+                                  000023f6         7   data ,g         0
+
+SECTION=rom_FE
+FILE=C:/WorkSpace/MD_COLORE_1/MD_COLORE_1/MD_COLORE_1
+                                  000a0000  000a13b1      13b2
+  _ascih
+                                  000a0000       fa0   data ,g         0
+  _ascil
+                                  000a0fa0       3e8   data ,g         0
+  _tab_tas
+                                  000a1388        10   data ,g         0
+  _filt
+                                  000a1398         2   data ,g         0
+  _lcdinitgraf
+                                  000a139a        18   data ,g         0
+
+SECTION=rom_FO
+FILE=cdata
+                                  000a25f3  000a26f3       101
+  __ctype
+                                  000a25f3         0   none ,g         0
+
+SECTION=program
+FILE=C:/WorkSpace/MD_COLORE_1/MD_COLORE_1/MD_COLORE_1
+                                  000a2c64  000ac62c      99c9
+  _main
+                                  000a3204       558   func ,g         0
+  _esecuzione_prove
+                                  000a375c       97a   func ,g         0
+  _fine_per_buono
+                                  000a40d6        20   func ,g         0
+  _fine_per_errore
+                                  000a40f6        20   func ,g         0
+  _prova_uno
+                                  000a4116      1b0d   func ,g         0
+  _prova_due
+                                  000a5c22       891   func ,g         0
+  _prova_tre
+                                  000a64b4       959   func ,g         0
+  _LCD_InizGraf
+                                  000a6e0c        57   func ,g         0
+  $LCD_InviaIst
+                                  000a6e64        34   func ,g         0
+  $LCD_InviaDato
+                                  000a6e98        3b   func ,g         0
+  $LCD_InviaDato_int
+                                  000a6ed2        5f   func ,g         0
+  _LCD_FlagDiStato
+                                  000a6f32        31   func ,g         0
+  _agg_display
+                                  000a6f62        4e   func ,g         0
+  $wr_car_h
+                                  000a6fb0        68   func ,g         0
+  $wr_car_l
+                                  000a7018        45   func ,g         0
+  _Iniz_interf_LCD
+                                  000a705e         d   func ,g         0
+  _initTimerA2
+                                  000a706a         b   func ,g         0
+  _initTimerA1
+                                  000a7076         c   func ,g         0
+  _initTimerA0
+                                  000a7082         c   func ,g         0
+  _startTimerA0
+                                  000a708e         c   func ,g         0
+  _startTimerA1
+                                  000a709a         c   func ,g         0
+  _startTimerA2
+                                  000a70a6         c   func ,g         0
+  _setTimerA0int
+                                  000a70b2         6   func ,g         0
+  _setTimerA1int
+                                  000a70b8         6   func ,g         0
+  _setTimerA2int
+                                  000a70be         6   func ,g         0
+  _TimerA2int
+                                  000a70c4         6   func ,g         0
+  _TimerA1int
+                                  000a70ca        11   func ,g         0
+  _TimerA0int
+                                  000a70da        90   func ,g         0
+  _codifica_tasto
+                                  000a716a        39   func ,g         0
+  _tastiera
+                                  000a71a4        8c   func ,g         0
+  $set
+                                  000a7230         d   func ,g         0
+  $set_i
+                                  000a723c        11   func ,g         0
+  $res
+                                  000a724e         e   func ,g         0
+  $res_i
+                                  000a725c        14   func ,g         0
+  $bit
+                                  000a7270        13   func ,g         0
+  $bit_i
+                                  000a7282        18   func ,g         0
+  _iniz_tastiera
+                                  000a729a        20   func ,g         0
+  _mitoa
+                                  000a72ba       1ba   func ,g         0
+  _bcd_bin
+                                  000a7474        ed   func ,g         0
+  _cldis
+                                  000a7562        1c   func ,g         0
+  _scrivi_riga_h
+                                  000a757e        3d   func ,g         0
+  _scrivi_riga_l
+                                  000a75ba        3c   func ,g         0
+  $visual_6c
+                                  000a75f6        a7   func ,g         0
+  $visual_5c
+                                  000a769e        c8   func ,g         0
+  _schift_up_riga
+                                  000a7766        2a   func ,g         0
+  $clriga
+                                  000a7790       1fe   func ,g         0
+  $aqtim
+                                  000a798e       1bc   func ,g         0
+  _lett_conv
+                                  000a7b4a       316   func ,g         0
+  _ritardo
+                                  000a7e60        24   func ,g         0
+  $wr_disp_menu
+                                  000a7e84       105   func ,g         0
+  _visual_prove
+                                  000a7f88        65   func ,g         0
+  $CRC16
+                                  000a7fee        5b   func ,g         0
+  $vett_ee_8_16
+                                  000a8048        42   func ,g         0
+  $vett_ee_16_8
+                                  000a808a        48   func ,g         0
+  _p_soglie_timer
+                                  000a80d2      1246   func ,g         0
+  _calibrazione
+                                  000a9318       390   func ,g         0
+  _scrivi_dp_l
+                                  000a96a8        e2   func ,g         0
+  _clear_buf_asci
+                                  000a978a        1d   func ,g         0
+  _timer1
+                                  000a97a8        2d   func ,g         0
+  _timer2
+                                  000a97d4        2c   func ,g         0
+  $vis_timer
+                                  000a9800       116   func ,g         0
+  $visual_6c_2
+                                  000a9916       14a   func ,g         0
+  _buzzer
+                                  000a9a60        14   func ,g         0
+  $trig_buzz
+                                  000a9a74        1b   func ,g         0
+  $vis_2
+                                  000a9a90        4f   func ,g         0
+  _initADC
+                                  000a9ade         d   func ,g         0
+  _setADCint
+                                  000a9aec         6   func ,g         0
+  _ADCint
+                                  000a9af2         a   func ,g         0
+  _clearEE
+                                  000a9afc        1e   func ,g         0
+  _delay
+                                  000a9b1a        24   func ,g         0
+  $tx_serb_int_ex
+                                  000a9b3e        6b   func ,g         0
+  _tx_serb_cr_lf
+                                  000a9ba8         d   func ,g         0
+  $cod_hex
+                                  000a9bb6        29   func ,g         0
+  $visual_6c_1
+                                  000a9bde       149   func ,g         0
+  $ric_car_sup
+                                  000a9d28        2b   func ,g         0
+  $ric_car_inf
+                                  000a9d52        2a   func ,g         0
+  $nome_utente
+                                  000a9d7c       21c   func ,g         0
+  $visual_buf_nome
+                                  000a9f98        4b   func ,g         0
+  _mem_utente_eeprom
+                                  000a9fe4        2b   func ,g         0
+  $legge_utente_eeprom
+                                  000aa00e        30   func ,g         0
+  _test_batt
+                                  000aa03e       145   func ,g         0
+  _initTimerA3_PWM_mode
+                                  000aa184        18   func ,g         0
+  _startTimerA3
+                                  000aa19c         c   func ,g         0
+  _ConfigureOperatingFrequency
+                                  000aa1a8        4d   func ,g         0
+  _init_bus_lento
+                                  000aa1f4        13   func ,g         0
+  $wr_out
+                                  000aa208        4a   func ,g         0
+  _rd_inp
+                                  000aa252        37   func ,g         0
+  $wr_led
+                                  000aa288        1e   func ,g         0
+  _iniz_eeprom_orologio
+                                  000aa2a6         9   func ,g         0
+  $aqso
+                                  000aa2b0       16b   func ,g         0
+  _wd_h
+                                  000aa41a        1e   func ,g         0
+  _scrivi_dp
+                                  000aa438        e3   func ,g         0
+  _scrivi_dp_punto
+                                  000aa51c       113   func ,g         0
+  _scrivi_dp_h
+                                  000aa62e       10e   func ,g         0
+  $scrivi_dp_stampante
+                                  000aa73c       177   func ,g         0
+  $vis_press
+                                  000aa8b4        ad   func ,g         0
+  $vis_asci
+                                  000aa960       155   func ,g         0
+  _barra
+                                  000aaab6       16b   func ,g         0
+  _set_tappi1
+                                  000aac20        5f   func ,g         0
+  _set_tappi2
+                                  000aac80        68   func ,g         0
+  _set_tappi3
+                                  000aace8        68   func ,g         0
+  _res_tappi
+                                  000aad50        16   func ,g         0
+  _res_tappi1
+                                  000aad66        34   func ,g         0
+  _res_tappi2
+                                  000aad9a        34   func ,g         0
+  $set_evi
+                                  000aadce        3d   func ,g         0
+  _res_evi
+                                  000aae0a         d   func ,g         0
+  _p_tappi
+                                  000aae18       51e   func ,g         0
+  $visual_4
+                                  000ab336        74   func ,g         0
+  _initUART0
+                                  000ab3aa        19   func ,g         0
+  $UART0Txdato
+                                  000ab3c2        16   func ,g         0
+  _UART0Rxdato
+                                  000ab3d8        1c   func ,g         0
+  $tx_ser_int
+                                  000ab3f4        67   func ,g         0
+  _ric_batt
+                                  000ab45c        20   func ,g         0
+  $wr_dato_rtc
+                                  000ab47c        4b   func ,g         0
+  _rd_dato_rtc
+                                  000ab4c6        49   func ,g         0
+  _leggi_sec
+                                  000ab510        16   func ,g         0
+  _leggi_min
+                                  000ab526        16   func ,g         0
+  _leggi_ore
+                                  000ab53c        16   func ,g         0
+  _leggi_data
+                                  000ab552        16   func ,g         0
+  _leggi_anno
+                                  000ab568        16   func ,g         0
+  _leggi_mese
+                                  000ab57e        16   func ,g         0
+  _scrivi_sec
+                                  000ab594        33   func ,g         0
+  _scrivi_min
+                                  000ab5c6        29   func ,g         0
+  _scrivi_ore
+                                  000ab5f0        2a   func ,g         0
+  _scrivi_data
+                                  000ab61a        2a   func ,g         0
+  _scrivi_anno
+                                  000ab644        2a   func ,g         0
+  _scrivi_mese
+                                  000ab66e        2a   func ,g         0
+  $aqsec
+                                  000ab698        3f   func ,g         0
+  $aqmin
+                                  000ab6d6        38   func ,g         0
+  $aqore
+                                  000ab70e        38   func ,g         0
+  $aqdata
+                                  000ab746        38   func ,g         0
+  $aqanno
+                                  000ab77e        38   func ,g         0
+  $aqmese
+                                  000ab7b6        38   func ,g         0
+  _prog_orologio
+                                  000ab7ee       12f   func ,g         0
+  $conv_bin_bcd
+                                  000ab91e        2c   func ,g         0
+  $conv_bcd_bin
+                                  000ab94a        30   func ,g         0
+  $vis_orologio
+                                  000ab97a       14e   func ,g         0
+  $vis_orologio_stamp
+                                  000abac8       158   func ,g         0
+  _prova_fusione
+                                  000abc20       227   func ,g         0
+  _contapezzi
+                                  000abe46       13b   func ,g         0
+  _stampa_espanso
+                                  000abf82        14   func ,g         0
+  _stampa_normale
+                                  000abf96        1f   func ,g         0
+  _stampa_riga
+                                  000abfb4        38   func ,g         0
+  _taglio_stampante
+                                  000abfec        2f   func ,g         0
+  $copia_riga_stamp
+                                  000ac01c        2d   func ,g         0
+  $stampa
+                                  000ac048        75   func ,g         0
+  _dp5
+                                  000ac0be        67   func ,g         0
+  _scansione_led
+                                  000ac124        f9   func ,g         0
+  $codifica_carattere
+                                  000ac21e       171   func ,g         0
+  $visualvettore
+                                  000ac38e        2f   func ,g         0
+  _schiftaSxvett
+                                  000ac3be        26   func ,g         0
+  $individuacarattere
+                                  000ac3e4        1b   func ,g         0
+  $acqNumero
+                                  000ac3fe       186   func ,g         0
+  _azzera_memoria
+                                  000ac584        1b   func ,g         0
+  _DI
+                                  000a2c64         3   func ,g         0
+  _EI
+                                  000a2c68         4   func ,g         0
+  _wrmem
+                                  000a2c6c        72   func ,g         0
+  _wrdis
+                                  000a2cde        6e   func ,g         0
+  $scrivi_ee
+                                  000a2d4c       10b   func ,g         0
+  $leggi_ee
+                                  000a2e56        f3   func ,g         0
+  $scrivi_ee_256
+                                  000a2f4a        4d   func ,g         0
+  $leggi_ee_256
+                                  000a2f96        35   func ,g         0
+  $scrivi_ee_bloc
+                                  000a2fcc       130   func ,g         0
+  $leggi_ee_bloc
+                                  000a30fc       108   func ,g         0
+
+FILE=_f8ge
+                                  000ac62e  000ac6d4        a7
+  __f8ge
+                                  000ac62e        a7   func ,g         0
+
+FILE=_f8mul
+                                  000ac6d6  000ac99c       2c7
+  __f8mul
+                                  000ac6d6       2c7   func ,g         0
+
+FILE=_f8toi4
+                                  000ac99e  000ac9c2        25
+  __f8toi4
+                                  000ac99e        25   func ,g         0
+
+FILE=_ftol
+                                  000ac9c4  000acad4       111
+  $_ftol
+                                  000ac9c4       111   func ,g         0
+
+FILE=_i4div
+                                  000acad6  000acb58        83
+  __i4div
+                                  000acad6        83   func ,g         0
+
+FILE=_i4divu
+                                  000acb5a  000acba6        4d
+  __i4divU
+                                  000acb5a        4d   func ,g         0
+
+FILE=_i4mod
+                                  000acba8  000acc1a        73
+  __i4mod
+                                  000acba8        73   func ,g         0
+
+FILE=_i4mulu
+                                  000acc1c  000acc37        1c
+  __i4mulU
+                                  000acc1c        1c   func ,g         0
+
+FILE=_i4tof8
+                                  000acc38  000acc59        22
+  __i4tof8
+                                  000acc38        22   func ,g         0
+
+FILE=_i4utof8
+                                  000acc5a  000acc7b        22
+  __i4Utof8
+                                  000acc5a        22   func ,g         0
+
+FILE=_ltof
+                                  000acc7c  000acd4f        d4
+  $_ltof
+                                  000acc7c        d4   func ,g         0
+
+FILE=strlen
+                                  000acd50  000acd7a        2b
+  _strlen
+                                  000acd50        2b   func ,g         0
+
+FILE=strtol
+                                  000acd7c  000ad045       2ca
+  _strtol
+                                  000acd7c       2ca   func ,g         0
+
+FILE=_f8ltor
+                                  000ad046  000ad099        54
+  $_f8ltor
+                                  000ad046        54   func ,g         0
+
+FILE=_f8rtol
+                                  000ad09a  000ad0da        41
+  $_f8rtol
+                                  000ad09a        41   func ,g         0
+
+SECTION=interrupt
+FILE=ncrt0
+                                  000ad0dc  000ad182        a7
+  $exit
+                                  000ad180         0   none ,g         0
+  _exit
+                                  000ad180         0   none ,g         0
+  dummy_int
+                                  000ad182         0   none ,g         0
+
